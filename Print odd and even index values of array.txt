@@ -1,0 +1,33 @@
+#include<stdio.h>
+int main()
+{
+    int a[10],n;
+    printf("Enter n:");
+    scanf("%d",&n);
+    int i,j;
+    for(i=0;i<n;i++)
+    {
+        scanf("%d",&a[i]);
+    } 
+     printf("Even Index:");
+    for(i=0;i<n;i++)
+   
+    {
+        if(i%2!=0){
+            printf("%d",a[i]);
+    
+            }
+            
+        } 
+        printf("\nOdd index:");
+        for(i=0;i<n;i++)
+    {
+        if(i%2==0){
+            printf("%d",a[i]);
+    
+            }
+            
+        } 
+
+return 0;    
+}
